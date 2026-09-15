@@ -1,4 +1,4 @@
-import { now } from '../utils/time.ts';
+import { now } from '../utils/time.js';
 
 const processedUpdates = new Map<string, number>();
 const TTL_MS = 60000; // 10 minutes TTL for update IDs / callbacks
